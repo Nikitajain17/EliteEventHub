@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Event Organizer Website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- Header section starts -->
+    <header class="header">
+        <a href="#" class="logo"><span>Elite</span>EventsHub</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#service">Service</a>
+            <a href="#about">About</a>x
+            <a href="#gallery">Gallery</a>
+            <a href="#price">Price</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+    </header>
+
+
+    <!-- Home section starts -->
+    <div class="website-container">
+        <section class="home padding-sections" id="home">
+            <div class="content">
+                <h3>It's time to celebrate! <br> With The best <br> <span>event organizers</span></h3>
+                <a class="btn" href="#contact">Contact Us</a>
+            </div>
+            <div class="swiper-container home-slider">
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <img src="home1.webp" />
+                        <img src="home2.jpg" />
+                        <img src="gall_img6.jpg" />
+                        <img src="home4.avif" />
+                        <img src="home5.jpg" />
+                        <img src="home6.webp" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service section starts -->
+        <section class="service padding-sections" id="service">
+            <h1 class="heading">Our <span>Services</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Venue Selection</h3>
+                    <p>Choose from our carefully selected venues to find the perfect setting for your event. Whether you're looking for elegance, scenic beauty, or modern style, we have options to suit any occasion.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Invitation Card</h3>
+                    <p>Make a lasting first impression with beautifully designed invitation cards. Our team crafts unique and personalized designs to match the style and theme of your event, ensuring a touch of elegance and excitement for your guests.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-music"></i>
+                    <h3>Entertainment</h3>
+                    <p>From live bands to DJs, dancers, and interactive experiences, we provide top-tier entertainment tailored to your event's vibe.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food and Drinks</h3>
+                    <p>Delight your guests with a customized menu that includes gourmet food options, signature cocktails, and refreshing beverages.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-photo-video"></i>
+                    <h3>Photos and Videos</h3>
+                    <p>Capture the best moments with our professional photography and videography services, providing you with memories to cherish for years to come.</p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h3>Custom Food</h3>
+                    <p>We create personalized menus to fit your event's theme, offering a variety of gourmet options, dietary accommodations, and custom dishes to ensure an exceptional culinary experience for every guest.</p>
+                </div>
+            </div>
+        </section>
+        <!--service section ends-->
+        <!--about section starts-->
+        <section class="about" id="about">
+            <h1 class="heading"><span>About</span> Us</h1>
+            <div class="row">
+                <div class="image">
+                    <img src="abtus.avif" alt="Image needed" width="1500" height="400">
+                </div>
+
+                <div class="content">
+                    <h3>We Will Give You a Very Special Celebration For You</h3>
+                    <p>From start to finish, we handle every detail of your celebration with precision and creativity, ensuring an unforgettable experience tailored to your desires. Whether it’s an intimate gathering or a grand affair, our team brings your
+                        vision to life with exceptional venues, exquisite decorations, gourmet menus, and entertainment that captivates. We focus on crafting personalized moments that allow you to fully immerse in the joy of the occasion, knowing that
+                        every aspect is expertly managed for a seamless and unforgettable celebration.<br> We create memorable, tailored events that bring your vision to life, leaving you to enjoy every special moment.<br> Our commitment is to make your
+                        event truly one-of-a-kind, filled with joy, beauty, and seamless experiences. Trust us to handle everything, down to the smallest details.</p>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <!-- About section ends -->
+        <!-- Gallery section starts -->
+        <section class="gallery padding-sections" id="gallery">
+            <h1 class="heading">Our <span>Gallery</span></h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="gall_img1.jpg" alt="Gallery Image 1" width="300" height="200">
+                    <h3 class="title">Birthday Party</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img2.jpg" alt="Gallery Image 2" width="300" height="200">
+                    <h3 class="title">Wedding Event</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img3.jpg" alt="Gallery Image 3" width="300" height="200">
+                    <h3 class="title">Wedding Event</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img4.jpg" alt="Gallery Image 4" width="300" height="200">
+                    <h3 class="title">Corporate Events</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img5.webp" alt="Gallery Image 5" width="300" height="200">
+                    <h3 class="title">Corporate Events</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img6.jpg" alt="Gallery Image 6" width="300" height="200">
+                    <h3 class="title">Garden Party</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img7.jpg" alt="Gallery Image 7" width="300" height="200">
+                    <h3 class="title">Wedding Event</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img8.webp" alt="Gallery Image 8" width="300" height="200">
+                    <h3 class="title">Haldi Event</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="gall_img9.jpg" alt="Gallery Image 9" width="300" height="200">
+                    <h3 class="title">Concert Event</h3>
+                    <div class="icons">
+                        <a class="fas fa-heart" onclick="toggleLike(this)"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Gallery section ends -->
+        <!--price section starts-->
+        <section class="price padding-sections" id="price">
+            <h1 class="heading"> Our <span> price</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <h3 class="title"> for birthday </h3>
+                    <h3 class="amount">$250.99</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i>full services</li>
+                        <li><i class="fas fa-check"></i>decorations</li>
+                        <li><i class="fas fa-check"></i>music and photos</li>
+                        <li><i class="fas fa-check"></i>food and drinks</li>
+                        <li><i class="fas fa-check"></i>invitation card</li>
+
+                    </ul>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+                <div class="box">
+                    <h3 class="title"> for weddingg </h3>
+                    <h3 class="amount">$450.99</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i>full services</li>
+                        <li><i class="fas fa-check"></i>decorations</li>
+                        <li><i class="fas fa-check"></i>music and photos</li>
+                        <li><i class="fas fa-check"></i>food and drinks</li>
+                        <li><i class="fas fa-check"></i>invitation card</li>
+
+                    </ul>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+                <div class="box">
+                    <h3 class="title"> for concerts </h3>
+                    <h3 class="amount">$650.99</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i>full services</li>
+                        <li><i class="fas fa-check"></i>decorations</li>
+                        <li><i class="fas fa-check"></i>music and photos</li>
+                        <li><i class="fas fa-check"></i>food and drinks</li>
+                        <li><i class="fas fa-check"></i>invitation card</li>
+
+                    </ul>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+
+                <div class="box">
+                    <h3 class="title"> for others </h3>
+                    <h3 class="amount">$850.99</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i>full services</li>
+                        <li><i class="fas fa-check"></i>decorations</li>
+                        <li><i class="fas fa-check"></i>music and photos</li>
+                        <li><i class="fas fa-check"></i>food and drinks</li>
+                        <li><i class="fas fa-check"></i>invitation card</li>
+
+                    </ul>
+                    <a href="#contact" class="btn">check out</a>
+                </div>
+
+            </div>
+        </section>
+        <!--price section ends-->
+        <!-- review section statrts-->
+        <!-- Review section starts -->
+        <section class="review padding-sections" id="review">
+            <h1 class="heading">client's <span>review</span></h1>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+
+                            <div class="user-info">
+                                <h3>John Doe</h3>
+                                <span>Happy Client</span>
+                            </div>
+                        </div>
+                        <p>"This service was outstanding! Highly recommended for anyone seeking quality."</p>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+
+                            <div class="user-info">
+                                <h3>Daniel Brown</h3>
+                                <span>Happy Client</span>
+                            </div>
+                        </div>
+                        <p>"Their expertise and dedication shine through every step of the process. We’ve seen a significant improvement in our workflow after collaborating with them."</p>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+
+                            <div class="user-info">
+                                <h3>Olivia Green</h3>
+                                <span>Happy Client</span>
+                            </div>
+                        </div>
+                        <p>"The level of support and guidance provided was outstanding. They truly care about their clients' success. Amazing service!"</p>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+
+                            <div class="user-info">
+                                <h3>Emily Carter</h3>
+                                <span>Happy Client</span>
+                            </div>
+                        </div>
+                        <p>"The team provided exceptional service and ensured our project exceeded expectations. Their attention to detail and commitment to quality are unparalleled."</p>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <!-- review section ends-->
+        <!-- Contact Us section starts -->
+        <section class="contact padding-sections" id="contact">
+            <h1 class="heading">Contact <span>Us</span></h1>
+
+            <div class="content">
+                <h3>Get in touch with us</h3>
+                <p>We'd love to hear from you! Whether you're planning a special event, looking for more information, or have any questions, feel free to reach out. <br>Our team is here to help you create the perfect event experience.</p>
+
+                <!-- Contact Form -->
+                <form id="submissionForm" action="next.html" onsubmit="showPopup()">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+
+
+            </div>
+    </div>
+    </section>
+    </div>
+
+    <!-- Map Section -->
+    <div class="footer-column">
+        <h1 class="heading">Map<span> Location</span></h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7013.288991008436!2d77.04050902582612!3d28.49083807007385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1892ebaaaaab%3A0x24e991eb64b15fa6!2sSector%2025%2C%20Gurugram%2C%20Haryana!5e0!3m2!1sen!2sin!4v1694519508930!5m2!1sen!2sin"
+            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" width="100% " height="300 " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
+    </div>
+    </div>
+    </div>
+    </footer>
+    <footer class="footer ">
+        <div class="container ">
+            <div class="footer-row ">
+                <!-- Footer Column 1 -->
+                <div class="footer-column ">
+                    <h3>About Us</h3>
+                    <p>Our event organizer is a professional or organization responsible for planning, coordinating, and executing events of various types and sizes. Their role is to manage all aspects of an event, ensuring it runs smoothly and meets the
+                        client's objectives.
+                    </p>
+                </div>
+
+                <!-- Footer Column 2 -->
+                <div class="footer-column ">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home ">Home</a></li>
+                        <li><a href="#about ">About</a></li>
+                        <li><a href="#services ">Services</a></li>
+                        <li><a href="#gallery ">Gallery</a></li>
+                        <li><a href="#price ">price</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Column 3 -->
+                <div class="footer-column ">
+                    <h3>Contact</h3>
+                    <p>Email: EliteEventHub.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+
+                <!-- Footer Column 4 -->
+                <div class="footer-column ">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons ">
+                        <a href="# "><i class="fab fa-facebook-f "></i></a>
+                        <a href="# "><i class="fab fa-twitter "></i></a>
+                        <a href="# "><i class="fab fa-instagram "></i></a>
+                        <a href="# "><i class="fab fa-linkedin-in "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js ">
+    </script>
+    <script src="script.js "></script>
+</body>
+
+</html>
